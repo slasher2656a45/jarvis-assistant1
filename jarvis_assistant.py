@@ -27,6 +27,7 @@ from typing import Final
 import pyttsx3
 import speech_recognition as sr
 from ddgs import DDGS
+import subprocess
 
 
 # =========================
@@ -56,6 +57,9 @@ OPENABLE_ITEMS: dict[str, str | Path] = {
     "downloads": HOME / "Downloads",
     "pictures": HOME / "Pictures",
     "steam": PROGRAM_FILES_X86 / "Steam" / "steam.exe",
+    "among us": "steam://rungameid/945360",
+    "vrchat": "steam://rungameid/438100",
+     "roblox": "roblox-player://roblox-player:+launchmode:app+robloxLocale:en_us+gameLocale:en_us+LaunchExp:InApp",
 
     # EXAMPLES — remove the # and replace the path:
     # "minecraft": r"C:\Path\To\MinecraftLauncher.exe",
