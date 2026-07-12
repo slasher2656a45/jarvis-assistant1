@@ -1,0 +1,3 @@
+SpeechRecognition[audio]
+pyttsx3
+ddgs

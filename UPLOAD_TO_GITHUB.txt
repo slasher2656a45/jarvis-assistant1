@@ -1,0 +1,40 @@
+JARVIS — BUILD A WINDOWS APP ONLINE FOR FREE
+
+WEBSITE
+Use GitHub: https://github.com
+
+WHAT THIS DOES
+GitHub Actions uses an online Windows computer to turn jarvis_assistant.py
+into a downloadable JARVIS.exe. You do not need Python installed on your PC.
+
+STEPS
+1. Make a free GitHub account.
+2. Click the + button at the top right, then New repository.
+3. Name it jarvis-assistant.
+4. Choose Public, then Create repository.
+5. Extract this ZIP on your computer.
+6. On the new repository page, click:
+   Add file > Upload files
+7. Drag everything INSIDE the extracted JARVIS_GitHub_Builder folder onto
+   the upload page. Make sure the .github folder is included.
+8. Click Commit changes.
+9. Open the Actions tab in the repository.
+10. Open "Build JARVIS for Windows".
+11. Wait for the build to finish with a green tick.
+12. Open the finished build.
+13. Scroll down to Artifacts.
+14. Download "JARVIS-Windows".
+15. Extract the downloaded ZIP and run JARVIS.exe.
+
+ADDING YOUR GAMES AND FILES
+Before uploading, edit jarvis_assistant.py and find OPENABLE_ITEMS.
+Add entries such as:
+
+"vrchat": "steam://rungameid/438100",
+"my file": r"C:\Users\YourName\Documents\myfile.txt",
+
+IMPORTANT
+- Do not put passwords or API keys into a public repository.
+- Windows may show a warning because the EXE is unsigned.
+- The assistant needs microphone permission and internet access.
+- Search answers come from search-result snippets, not a full AI model.
